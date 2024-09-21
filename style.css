@@ -1,5 +1,5 @@
 body {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/photo-1665652475985-37e285aeff53.avif);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/pictures/photo-1665652475985-37e285aeff53.avif);
     background-repeat: no-repeat;
     background-position: top;
     background-attachment: fixed;
@@ -450,10 +450,10 @@ button {
         width: 20vw;
     }
     .ms{
-        margin-left: 8.4vw;
+        margin-left: 6vw;
     }
     .fs{
-        margin-left: 19vw;
+        margin-left: 15.9vw;
     }
     .helpline p{
         margin-left: 34vw;
