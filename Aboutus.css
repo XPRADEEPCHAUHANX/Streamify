@@ -2,18 +2,22 @@
     width: 100%;
     height: 100%;
 }
-
-* {
+*{
+    background-image: url(pictures/photo-1665652475985-37e285aeff53.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
     font-family: Nunito, sans-serif;
 }
 
 .team-cards-inner-container {
+    background-image: none;
     display: flex;
     row-gap: 1.3rem;
     column-gap: 1.3rem;
 }
 
 .text-blk {
+    background-image: none;
     margin-top: 0px;
     margin-right: 0px;
     margin-bottom: 0px;
@@ -23,13 +27,23 @@
     padding-bottom: 0px;
     padding-left: 0px;
     line-height: 25px;
+    color: white;
 }
 
 .responsive-cell-block {
+    background-image: none;
     min-height: 75px;
+}
+.content-box{
+    background-image: none;
+
 }
 
 .responsive-container-block {
+    /* background-image: url(pictures/photo-1665652475985-37e285aeff53.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    backdrop-filter: blur(20px); */
     min-height: 75px;
     height: fit-content;
     width: 100%;
@@ -47,6 +61,7 @@
 }
 
 .inner-container {
+    background-image: none;
     max-width: 1200px;
     min-height: 100vh;
     margin-top: 0px;
@@ -57,6 +72,7 @@
 }
 
 .section-head {
+    background-image: none;
     font-size: 60px;
     line-height: 70px;
     margin-top: 0px;
@@ -66,6 +82,7 @@
 }
 
 .section-body {
+    background-image: none;
     font-size: 14px;
     line-height: 18px;
     margin-top: 0px;
@@ -75,11 +92,13 @@
 }
 
 .team-cards-outer-container {
+    background-image: none;
     display: flex;
     align-items: center;
 }
 
 .content-container {
+    background-image: none;
     display: flex;
     justify-content: flex-start;
     flex-direction: row;
@@ -91,6 +110,7 @@
 }
 
 .img-box {
+    background-image: none;
     max-width: 130px;
     max-height: 130px;
     width: 100%;
@@ -104,6 +124,7 @@
 }
 
 .card {
+    background-image: none;
     background-color: rgb(255, 255, 255);
     display: flex;
     padding-top: 16px;
@@ -119,16 +140,20 @@
 }
 
 .card-container {
+    background-image: none;
     max-width: 350px;
 }
 
 .card-content-box {
+    background-image: none;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
 
 .person-name {
+    background-image: none;
+    color: black;
     font-size: 20px;
     font-weight: 700;
     margin-top: 0px;
@@ -138,11 +163,14 @@
 }
 
 .person-info {
+    background-image: none;
+    color: black;
     font-size: 11px;
     line-height: 15px;
 }
 
 .card-container {
+    background-image: none;
     max-width: 350px;
 }
 
@@ -156,13 +184,15 @@
 }
 
 .person-img {
+    background-image: none;
     width: 100%;
     height: 100%;
-    border-top-left-radius: 6px;
+    border-radius: 10px;
+    /* border-top-left-radius: 6px;
     border-top-right-radius: 6px;
     border-bottom-right-radius: 6px;
-    border-bottom-left-radius: 6px;
-}
+    border-bottom-left-radius: 6px;*/
+} 
 
 @keyframes bounce {
 
